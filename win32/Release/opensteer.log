@@ -1,0 +1,17 @@
+﻿Build started 8/18/2014 9:03:05 AM.
+     1>Project "G:\Github\opensteer\win32\opensteer.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (OpenSteerDemo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Lib:
+         opensteer.vcxproj -> G:\Github\opensteer\win32\Release\opensteer.lib
+       PostBuildEvent:
+         mkdir G:\Github\opensteer\win32\\lib
+         copy G:\Github\opensteer\win32\Release\opensteer.lib G:\Github\opensteer\win32\\lib
+         
+         :VCEnd
+         A subdirectory or file G:\Github\opensteer\win32\\lib already exists.
+                 1 file(s) copied.
+     1>Done Building Project "G:\Github\opensteer\win32\opensteer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

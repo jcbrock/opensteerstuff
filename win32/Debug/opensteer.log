@@ -1,0 +1,41 @@
+﻿Build started 8/18/2014 8:41:30 AM.
+     1>Project "G:\Github\opensteer\win32\opensteer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IG:\Github\opensteer\glut /IG:\Github\opensteer\win32\\..\include /IG:\Github\opensteer\win32\\..\include\Opensteer /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _DLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\Camera.cpp ..\src\Clock.cpp ..\src\Draw.cpp ..\src\Pathway.cpp ..\src\PlugIn.cpp ..\src\SimpleVehicle.cpp ..\src\Vec3.cpp
+         Vec3.cpp
+         SimpleVehicle.cpp
+         PlugIn.cpp
+         Pathway.cpp
+         Draw.cpp
+         Clock.cpp
+         Camera.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IG:\Github\opensteer\glut /IG:\Github\opensteer\win32\\..\include /IG:\Github\opensteer\win32\\..\include\Opensteer /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _DLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\lq.c
+         lq.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1354,5): warning MSB8012: TargetPath(G:\Github\opensteer\win32\Debug\opensteer.lib) does not match the Library's OutputFile property value (G:\Github\opensteer\win32\Debug\opensteerd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1356,5): warning MSB8012: TargetName(opensteer) does not match the Library's OutputFile property value (opensteerd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Debug\opensteerd.lib" /NOLOGO Debug\Camera.obj
+         Debug\Clock.obj
+         Debug\Draw.obj
+         Debug\lq.obj
+         Debug\Pathway.obj
+         Debug\PlugIn.obj
+         Debug\SimpleVehicle.obj
+         Debug\Vec3.obj
+         opensteer.vcxproj -> G:\Github\opensteer\win32\Debug\opensteer.lib
+       PostBuildEvent:
+         mkdir "G:\Github\opensteer\win32\\lib"
+         copy "G:\Github\opensteer\win32\Debug\opensteer.lib" "G:\Github\opensteer\win32\\lib"
+         
+         :VCEnd
+         The system cannot find the file specified.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: The command "mkdir "G:\Github\opensteer\win32\\lib"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: copy "G:\Github\opensteer\win32\Debug\opensteer.lib" "G:\Github\opensteer\win32\\lib"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "G:\Github\opensteer\win32\opensteer.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.03
