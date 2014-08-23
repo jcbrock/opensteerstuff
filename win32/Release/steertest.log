@@ -1,8 +1,25 @@
-﻿Build started 8/18/2014 8:46:08 AM.
+﻿Build started 8/22/2014 7:19:23 PM.
      1>Project "G:\Github\opensteer\win32\steertest.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (opensteer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-     1>Link:
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IG:\Github\opensteer\win32\\..\include /IG:\Github\opensteer\win32\\..\include\Opensteer /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D NDEBUG /D _CONSOLE /D _DLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\plugins\JeffsDemo.cpp ..\src\main.cpp ..\src\OpenSteerDemo.cpp ..\plugins\Boids.cpp ..\plugins\CaptureTheFlag.cpp ..\plugins\LowSpeedTurn.cpp ..\plugins\MapDrive.cpp ..\plugins\MultiplePursuit.cpp ..\plugins\OneTurning.cpp ..\plugins\Pedestrian.cpp ..\plugins\Soccer.cpp
+         JeffsDemo.cpp
+         main.cpp
+         OpenSteerDemo.cpp
+         Boids.cpp
+         CaptureTheFlag.cpp
+         LowSpeedTurn.cpp
+         MapDrive.cpp
+         MultiplePursuit.cpp
+         OneTurning.cpp
+         Pedestrian.cpp
+         Soccer.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\SteerTest.res" SteerTest.rc 
+       Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\OpenSteerDemo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:G:\Github\opensteer\win32\\lib glut32.lib opensteer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Release\OpenSteerDemo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\OpenSteerDemo.lib" /MACHINE:X86 /SAFESEH Release\SteerTest.res
+         Release\JeffsDemo.obj
          Release\main.obj
          Release\OpenSteerDemo.obj
          Release\Boids.obj
@@ -16,7 +33,7 @@
          G:\Github\opensteer\win32\Release\opensteer.lib
          steertest.vcxproj -> G:\Github\opensteer\win32\Release\OpenSteerDemo.exe
        PostBuildEvent:
-         mkdir G:\Github\opensteer\win32\\bin
+         
          copy G:\Github\opensteer\win32\Release\OpenSteerDemo.exe G:\Github\opensteer\win32\\bin
          
          :VCEnd
@@ -25,4 +42,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.41
+Time Elapsed 00:00:08.53

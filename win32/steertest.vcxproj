@@ -99,12 +99,13 @@ copy "$(TargetPath)" "$(ProjectDir)\bin"
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <PostBuildEvent>
-      <Command>mkdir $(ProjectDir)\bin
+      <Command>
 copy $(TargetPath) $(ProjectDir)\bin
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\plugins\JeffsDemo.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\OpenSteerDemo.cpp" />
     <ClCompile Include="..\plugins\Boids.cpp" />

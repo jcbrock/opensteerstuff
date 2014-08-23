@@ -44,6 +44,9 @@
     <ClCompile Include="..\plugins\Soccer.cpp">
       <Filter>plugins</Filter>
     </ClCompile>
+    <ClCompile Include="..\plugins\JeffsDemo.cpp">
+      <Filter>plugins</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="OpenSteerDemo.ico">

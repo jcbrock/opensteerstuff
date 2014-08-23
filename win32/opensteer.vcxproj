@@ -84,7 +84,7 @@ copy "$(TargetPath)" "$(ProjectDir)\lib"
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <PostBuildEvent>
-      <Command>mkdir $(ProjectDir)\lib
+      <Command>
 copy $(TargetPath) $(ProjectDir)\lib
 </Command>
     </PostBuildEvent>
